@@ -1,0 +1,21 @@
+.label-skills {
+    font-size: 30px;
+    color: #4338CA
+}
+
+.div-skills {
+    max-width: 100%;
+    padding: 125px 125px;
+    padding-top: 5px;    
+    padding-bottom: 75px;
+    /* Yanlara boşluk */
+    box-sizing: border-box;
+    /* Padding'i genişliğe dahil et */
+}
+
+.div-skillLabel {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}

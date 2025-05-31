@@ -1,0 +1,160 @@
+/* Main Container */
+.projects-container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0 auto;
+    gap: 175px;
+
+    max-width: 100%;
+    padding: 125px 125px;
+    padding-top: 5px;
+    /* Yanlara boşluk */
+    box-sizing: border-box;
+    /* Padding'i genişliğe dahil et */
+}
+
+
+/* Buton grubuna stil */
+.project-buttons {
+    width: 68px;
+    height: 27px;
+    border: 1px #3730A3;
+    display: flex;
+    gap: 10px;
+}
+
+/* Yazı çerçeveleri */
+.bordered-text {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+    /* Metni içerde ortala */
+}
+
+/* Header */
+.projects-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+.section-title {
+    font-size: 2.5rem;
+    color: #1F2937;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.title-divider {
+    width: 80px;
+    height: 3px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.nav-githubWeb {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* Project Card */
+.project-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-subtitle {
+    color: #6B7280;
+    margin-bottom: 1rem;
+}
+
+/* Card Divider */
+.card-divider {
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 1rem 0;
+}
+
+.project-description {
+    color: #4B5563;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+/* Buttons */
+.project-buttons {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.project-buttons .btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.button-icon {
+    font-size: 1rem;
+}
+
+/* Bottom Divider */
+.bottom-divider {
+    height: 1px;
+    background-color: #E5E7EB;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .projects-container {
+        padding: 3rem 1.5rem;
+    }
+}

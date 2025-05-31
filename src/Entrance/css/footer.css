@@ -1,0 +1,18 @@
+.div-footer {
+    max-width: 100%;
+    padding: 125px 125px;
+    padding-top: 15px;
+    /* Yanlara boşluk */
+    box-sizing: border-box;
+    /* Padding'i genişliğe dahil et */
+    background-color: #F9F9F9;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-FooterBlogGitHub-Linkedin {
+    display: flex;
+    gap: 20px;
+    color: black;
+}

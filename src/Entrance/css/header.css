@@ -1,0 +1,54 @@
+.div-skillsProjects {
+    display: flex;
+    justify-content: flex-end;
+    gap: 75px;
+    padding: 25px;
+    padding-top: 0;
+    text-align: end;
+    margin: auto, 0px;
+}
+
+.div-Header {
+    max-width: 100%;
+    padding: 125px 125px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    /* Yanlara boşluk */
+    box-sizing: border-box;
+    /* Padding'i genişliğe dahil et */
+}
+
+.nav-items {
+    display: flex;
+    gap: 75px;
+    padding-top: 5px;
+}
+
+.a-HeaderLink {
+    color: #6B7280 !important;
+    text-decoration: none !important;
+}
+
+.div-TurkceyeGec {
+    display: flex;
+    justify-content: flex-end;
+    gap: 75px;
+    padding-left: 25px;
+    text-align: end;
+    margin: auto, 0px;
+}
+
+.formGroup-TurkceyeGec {
+    display: flex;
+    justify-content: flex-end;
+    gap: 75px;
+    padding: 25px;
+    text-align: end;
+    margin: auto, 0px;
+
+}
+
+.a-TurkceyeGec {
+    color: black !important;
+    text-decoration: none !important;
+}
